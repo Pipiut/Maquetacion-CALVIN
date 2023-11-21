@@ -1,0 +1,73 @@
+body{
+    background-color: #e7b64a;
+    margin: 0px;
+    font-family: 'PT Serif', serif;
+}
+
+.alertEnvio p{
+    color: #99b890;
+    background-color: #15383f;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: small;
+    margin: 0;
+}
+.navBar{
+    color: #15383f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navBar a{  
+    font-size: small;
+    font-weight: bold;
+}
+#logo{
+    font-size: 38px;
+    font-family: 'Galada', cursive;
+    font-style: italic;
+}
+.texto {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(21, 56, 63);
+    padding: 50px 400px;
+}
+.texto h6{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-bottom: 0;
+}
+h6{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+button {
+    border-radius: 35px;
+    color: rgb(21, 56, 63);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: rgb(209, 236, 109);
+    border: none;
+}
+#bouquete {
+    position: absolute;
+    top: 50%;
+    height: 580px;
+    width: 550px;
+    bottom: 100px;
+    top: 110px;
+}
+#planta {
+    position: absolute;
+    top: 50%;
+    padding-left: 910px;
+    height: 580px;
+    width: 440px;
+    bottom: 100px;
+    top: 110px;
+}
